@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing; border-box;
+}
+
 body {
     font-family: 'Segoe UI', Verdana;
     text-align: center;
@@ -9,8 +15,8 @@ body {
     text-align: center;
     margin-top: 100px;
     text-shadow: 0 0 10px #fff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #00ccff, 0 0 150px #00ccff;
+    color: white;
 }
-
 body{
     background-image: url("../fotos/background.png");
     font-family: 'Courier New', Courier, monospace;
@@ -37,6 +43,9 @@ body{
     color: aquamarine;
     text-align: center;
 }
+.imgLoca {
+  text-align: center;
+}
 .catalogo{
     color: white;
 }
@@ -54,6 +63,8 @@ body{
 }
 .masvendidos table{
     margin: 0 auto;
+    color: white;
+    text-align: center;
 }
 button { 
     padding: 10px 20px;
@@ -178,8 +189,21 @@ button:hover {
 .arriba a {
   text-decoration: none;
   color: #ffffff;
+  ;
 }
 .carritoback a {
   text-decoration: none;
   color: white;
+}
+.formularioNormal {
+  color: white;
+  text-align: center;
+}
+.inscripcion {
+  color: white;
+  text-align: center;
+}
+.finalTitle{
+  color: white;
+  text-align: center;
 }
