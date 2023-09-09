@@ -135,11 +135,6 @@ button:hover {
     font-weight: bold;
     margin: 5px 0;
   }
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 .comparaiphone{
   display: inline-block
 }
@@ -188,8 +183,9 @@ button:hover {
 }
 .arriba a {
   text-decoration: none;
-  color: #ffffff;
-  ;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 .carritoback a {
   text-decoration: none;
@@ -206,4 +202,18 @@ button:hover {
 .finalTitle{
   color: white;
   text-align: center;
+}
+.card {
+  background-image: url("../fotos/background.png");
+}
+.card-header p {
+  color: white;
+}
+.card-body p {
+  color: white;
+}
+.logoCentro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
