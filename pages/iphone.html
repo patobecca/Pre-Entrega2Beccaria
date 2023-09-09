@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../fotos/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title> iPhone 📲🖥</title>
 </head>
 <h1 class="neon-text">
@@ -16,10 +17,12 @@
     <div class="whatsapp"></div>
     <!--todos los HTMLS comienzan con un header-->
     <header>
+    <div class="finalTitle">
         <h1>
             iPhone
         </h1>
         <h2>Elegí tu nuevo iPhone</h2>
+    </div>
     </header>
     <div class="menu">
         <div class="pages">
@@ -34,43 +37,56 @@
     </div>
     <main>
         <br>
-        <h1>Catálogo de Productos</h1>
-
-        <div class="product">
+        <div class="finalTitle">
+            <h1>Catálogo de Productos</h1>
+        </div>
+<div class="container">
+    <div class="row">
+        <div class="product col-md-2 m-auto">
             <img src="../fotos/13 red.jpeg" alt="13">
-            <h2>13 Red 128GB 99% USADO</h2>
+            <div class="textoDeCatalogo">
+                <h2>13 Red 128GB 99% USADO</h2>
             <p>690USD</p>
+            </div>
             <button>Añadir al Carrito</button>
         </div>
 
-        <div class="product">
+        <div class="product col-md-2 m-auto">
             <img src="../fotos/8plus.jpeg" alt="iPhone 8 Plus 64GB 100% USADOS">
-            <h2>iPhone 8 Plus 64GB USADOS</h2>
+            <div class="textoDeCatalogo">
+                <h2>iPhone 8 Plus 64GB USADOS</h2>
             <p>300USD</p>
+            </div>
             <button>Añadir al Carrito</button>
         </div>
         <br>
-        <div class="product">
+        <div class="product col-md-2 m-auto">
             <img src="../fotos/12 violeta.jpeg" width="200px" alt="iPhone 12 Purple 128GB 100% USADO">
-            <h2>iPhone 12 Red 128GB 100% USADO</h2>
-            <p>550 USD</p>
+            <div class="textoDeCatalogo">
+                <h2>iPhone 12 Red 128GB 100% USADO</h2>
+                <p>550 USD</p>
+            </div>
             <button>Añadir al Carrito</button>
         </div>
 
-        <div class="product">
+        <div class="product col-md-2 m-auto">
             <img src="../fotos/11 verde.jpeg" width="200px" alt="iPhone 11 Green 64GB USADO">
-            <h2>iPhone 11 Green 64GB USADO</h2>
-            <p>$430 USD</p>
+            <div class="textoDeCatalogo">
+                <h2>iPhone 11 Green 64GB USADO</h2>
+                <p>430 USD</p>
+            </div>
             <button>Añadir al Carrito</button>
         </div>
+    </div>
+</div>
+       
         <br>
         <br>
-
-
-        <h4>No tienes cuenta?</h4>
-        <h2>Registrate</h2>
-
-        <form action="">
+<div class="inscripcion">
+    <h4>No tienes cuenta?</h4>
+    <h2>Registrate</h2>
+</div>
+        <form action="" class="formularioNormal m-auto">
             <div>
                 <label form="name"> Nombre</label>
                 <input type="text" name="name" placeholder="Juancito">
@@ -98,8 +114,8 @@
             </div>
             <br>
             <div>
-                <input type="submit" value="Crear Cuenta">
-                <input type="reset" value="Borrar datos">
+                <a href="#" class="btn btn-primary">Crear Cuenta</a>
+                <a href="#" class="btn btn-primary">Borrar datos</a>
             </div>
             <br>
             <br>
@@ -107,19 +123,63 @@
         </form>
     </main>
     <footer>
-        <h4>
+        <h4 class="finalTitle">
             TecnoShop WE, un año de experiencia y alegrías con nuestros clientes! Confía en nosotros.
         </h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellat illum doloribus aliquid, nam, debitis
-            mollitia quidem laboriosam hic odio, voluptates perferendis dolores ipsa. Inventore repellendus perspiciatis
-            eius deleniti optio rerum ea qui quidem! Consequuntur ratione excepturi enim odio illum beatae earum
-            praesentium fugit, itaque explicabo, ipsum, sed rem repellendus., ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptates quibusdam facilis sit fugit consequatur sunt cumque recusandae enim, temporibus
-            reprehenderit eum officia numquam quo quam perferendis. Consectetur, quaerat nemo? A.</p>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-4 ">
+                    <div class="card text-center">
+                        <div class="card-header">
+                        <p>TecnoShopWE</p>
+                        </div>
+                        <div class="card-body">
+                        <p class="card-text">¿Hiciste una compra y te arrepentiste?</p>
+                        <a href="#" class="btn btn-primary">Botón de arrepetimiento</a>
+                        </div>
+                        <div class="card-footer text-body-colorPropioText">
+                        Derechos Reservados Inc
+                        </div>
+                    </div>
+                </div>
 
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <div class="card-header">
+                            <p>TecnoShopWE</p>
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Podes contactarnos via email</p>
+                            <a href="#" class="btn btn-primary">Email</a>
+                            </div>
+                            <div class="card-footer text-body-secondary">
+                            Derechos Reservados Inc
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <div class="card-header">
+                            <p>TecnoShopWE</p>
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Seguinos en nuestras redes!</p>
+                            <img src="../fotos/whatsapp.png" alt blank="whatsapp" width="15%">
+                            <img src="../fotos/instagramm.png" alt="instagram" width="20%">
+                            </div>
+                            <div class="card-footer text-body-secondary">
+                            Derechos Reservados Inc
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </footer>
     <div class="arriba">
         <a href="#arriba"> Subir</a>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
 </html>
