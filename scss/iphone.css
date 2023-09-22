@@ -1,0 +1,11 @@
+.neon-text {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #00ccff, 0 0 150px #00ccff;
+  color: white;
+}
+
+body {
+  background-image: url("../fotos/background.png");
+}/*# sourceMappingURL=iphone.css.map */

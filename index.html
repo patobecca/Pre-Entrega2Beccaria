@@ -5,102 +5,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./fotos/favicon.ico" type="image/x-icon">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="./base.css">
-<title> TecnoShop WE - Inicio </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/base.css">
+    <title> TecnoShop WE - Inicio </title>
 
 </head>
 <h1 class="neon-text">
     TecnoShop WE📲
 </h1>
 
-<body>
+<header class="header">
     <div class="whatsapp">
-        <img src="./fotos/whatsapp.png" alt="logoWpp">
+        <img class="whatsapp" src="./fotos/whatsapp.png" alt="logoWpp">
     </div>
     <!--todos los HTMLS comienzan con un header-->
     <div class="logoCentro">
-        <img id="arriba" src="./fotos/logotecnoshop.jpeg" width="130px" alt="TecnoShopWE">
+        <img id="logo" src="./fotos/logotecnoshop.jpeg" width="130px" alt="TecnoShopWE">
     </div>
     <div class="subtitulo">
         <h2>
             <en> Venta de productos Apple 🍏 </en>
         </h2>
     </div>
-    </header>
-    <main>
-        <section>
-            <br>
-            <br>
+</header>
 
+<body>
+    <main>
+        <section class="introB">
             <div class="intro">
                 <p>Productos con garantía oficial y propia de comercio. Envíos gratis!</p>
                 <br>
                 <p>Aceptamos tu usado como parte de pago!</p>
             </div>
-            <br>
-            <br>
-            <div class="menu">
-                <div class="pages">
-                    <ul class="menuu">
-                        <li><a href="./pages/iphone.html"> iPhone</a></li>
-                        <li><a href="./pages/macbooks.html"> Macbooks</a></li>
-                        <li><a href="./pages/carrito.html"> Carrito</a></li>
-                        <li><a href="./pages/comparar.html">Compará</a></li>
-                </div>
-                </ul>
+        </section>
+        <div class="menu">
+            <div class="pages">
+                <ul class="menuu">
+                    <li><a href="./pages/iphone.html"> iPhone</a></li>
+                    <li><a href="./pages/macbooks.html"> Macbooks</a></li>
+                    <li><a href="./pages/carrito.html"> Carrito</a></li>
+                    <li><a href="./pages/comparar.html">Compará</a></li>
+            </div>
+            </ul>
 
-            </div>
-            <br>
-            <br>
-            <div class="finalTitle">
+        </div>
+        <div class="finalTitle">
             <h3>Ultimas ventas!</h3>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide w-25 m-auto">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <div id="carouselExampleCaptions" class="carousel slide w-25 m-auto">
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./fotos/12 rojo.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                <h5>iPhone 12 Red 64GB</h5>
-                <p>Carlos, de Rio Cuarto, Cba</p>
+                        <h5>iPhone 12 Red 64GB</h5>
+                        <p>Carlos, de Rio Cuarto, Cba</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./fotos/xr yellow.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                    <h5> iPhone XR 64GB</h5>
-                    <p>Celina, de Villa María, Cba</p>
+                        <h5> iPhone XR 64GB</h5>
+                        <p>Celina, de Villa María, Cba</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./fotos/11 verde.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                <h5>iPhone 11 Green 128GB</h5>
-                <p>Emma, de Rosario, Sta Fe.</p>
+                        <h5>iPhone 11 Green 128GB</h5>
+                        <p>Emma, de Rosario, Sta Fe.</p>
                     </div>
                 </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <br>
-            <br>
-        </section>
-        <br>
-        <br>
-        <section>
+            </button>
+        </div>
+        <section class="tablitaVende">
             <div class="masvendidos">
                 <table border="2" cellpadding="10px">
                     <tr>
@@ -122,16 +118,12 @@
                 </table>
             </div>
         </section>
-        <br>
-        <section>
+        <section class="inscripto">
             <div class="inscripcion">
                 <h4>No tienes cuenta?</h4>
-            <br>
-            <h2>Registrate</h2>
+                <h2>Registrate</h2>
             </div>
-            
-            <br>
-            <form action="" class="formularioNormal m-auto" >
+            <form action="" class="formularioNormal m-auto">
                 <div>
                     <label form="name"> Nombre</label>
                     <input type="text" name="name" placeholder="Sofía">
@@ -175,59 +167,63 @@
         </h4>
         <div class="container">
             <div class="row">
-                
+
                 <div class="col-md-4 ">
                     <div class="card text-center">
                         <div class="card-header">
-                        <p>TecnoShopWE</p>
+                            <p>TecnoShopWE</p>
                         </div>
                         <div class="card-body">
-                        <p class="card-text">¿Hiciste una compra y te arrepentiste?</p>
-                        <a href="#" class="btn btn-primary">Botón de arrepetimiento</a>
+                            <p class="card-text">¿Hiciste una compra y te arrepentiste?</p>
+                            <a href="#" class="btn btn-primary">Botón de arrepetimiento</a>
                         </div>
                         <div class="card-footer text-body-colorPropioText">
-                        Derechos Reservados Inc
+                            Derechos Reservados Inc
                         </div>
                     </div>
                 </div>
 
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <div class="card-header">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-header">
                             <p>TecnoShopWE</p>
-                            </div>
-                            <div class="card-body">
+                        </div>
+                        <div class="card-body">
                             <p class="card-text">Podes contactarnos via email</p>
                             <a href="#" class="btn btn-primary">Email</a>
-                            </div>
-                            <div class="card-footer text-body-secondary">
+                        </div>
+                        <div class="card-footer text-body-secondary">
                             Derechos Reservados Inc
-                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <div class="card-header">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-header">
                             <p>TecnoShopWE</p>
-                            </div>
-                            <div class="card-body">
+                        </div>
+                        <div class="card-body">
                             <p class="card-text">Seguinos en nuestras redes!</p>
                             <img src="./fotos/whatsapp.png" alt blank="whatsapp" width="15%">
-                            <img src="./fotos/instagramm.png" alt="instagram" width="20%">
-                            </div>
-                            <div class="card-footer text-body-secondary">
+                            <img src="./fotos/instagramm.pngs" width="20%" alt="instagram" a
+                                href="https://www.instagram.com/tecnoshopwe/" alt="blank">
+                        </div>
+                        <div class="card-footer text-body-secondary">
                             Derechos Reservados Inc
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-                    <div class="arriba">
-                        <a href="#arriba"> Subir</a>
-                    </div>
-                
+        </div>
+        <div class="arriba">
+            <a href="#arriba"> Subir</a>
+        </div>
+
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,0 +1,15 @@
+.container {
+    .row {
+        .card {
+            background-image: url("../fotos/background.png");
+            .card-header {
+                color: white;
+            }
+            .card-body {
+                p {
+                    color: white;
+                }
+            }
+        }
+    }
+}
