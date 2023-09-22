@@ -108,6 +108,106 @@ body .inscripto .formularioNormal {
   text-align: center;
 }
 
+.neon-text {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #00ccff, 0 0 150px #00ccff;
+  color: white;
+}
+
+.menu {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+.menu .pages {
+  color: aquamarine;
+  text-align: center;
+}
+.menu .pages .menuu {
+  background-color: aqua;
+  border-radius: 50%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.menu .pages .menuu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu .pages .menuu li a {
+  padding: 20px;
+  color: #1400c5;
+  text-decoration: none;
+  display: inline-block;
+}
+.menu .pages .menuu li :hover {
+  padding: 1%;
+  color: #fff;
+  width: 180%;
+  height: 2rem;
+  background-color: #1400c5;
+  border-radius: 100%;
+  justify-content: space-evenly;
+}
+
+body {
+  background-image: url("../fotos/background.png");
+}
+body .whatsapp {
+  width: 50px;
+  height: 50px;
+  margin: 5%;
+  position: fixed;
+}
+body .finalTitle {
+  padding: 4%;
+  color: white;
+  text-align: center;
+}
+body main .finalTitle {
+  padding: 4%;
+  color: white;
+  text-align: center;
+}
+body main .product {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+}
+body main .product .product img {
+  width: 100%;
+  border-radius: 8px;
+}
+body main .product img {
+  width: 100%;
+  border-radius: 8px;
+}
+body main .product h2 {
+  margin-top: 10px;
+}
+body main .product p {
+  font-weight: bold;
+  margin: 5px 0;
+}
+body main .textoDeCatalogo {
+  color: white;
+}
+body main .inscripcion {
+  color: white;
+  text-align: center;
+}
+body main .formularioNormal {
+  color: white;
+  text-align: center;
+}
+
 .container .row .card {
   background-image: url("../fotos/background.png");
 }
@@ -126,6 +226,44 @@ body .inscripto .formularioNormal {
   color: white;
 }
 
+.menu {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+.menu .pages {
+  color: aquamarine;
+  text-align: center;
+}
+.menu .pages .menuu {
+  background-color: aqua;
+  border-radius: 50%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.menu .pages .menuu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu .pages .menuu li a {
+  padding: 20px;
+  color: #1400c5;
+  text-decoration: none;
+  display: inline-block;
+}
+.menu .pages .menuu li :hover {
+  padding: 1%;
+  color: #fff;
+  width: 180%;
+  height: 2rem;
+  background-color: #1400c5;
+  border-radius: 100%;
+  justify-content: space-evenly;
+}
+
 body {
   background-image: url("../fotos/background.png");
 }
@@ -135,10 +273,36 @@ body .whatsapp {
   margin: 5%;
   position: fixed;
 }
+body .product {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+}
+body .product .product img {
+  width: 100%;
+  border-radius: 8px;
+}
+body .product img {
+  width: 100%;
+  border-radius: 8px;
+}
+body .product h2 {
+  margin-top: 10px;
+}
+body .product p {
+  font-weight: bold;
+  margin: 5px 0;
+}
 body .finalTitle {
   padding: 4%;
   color: white;
   text-align: center;
+}
+body .textoDeCatalogo {
+  color: white;
 }
 
 .container .row .card {
