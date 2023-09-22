@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing:border-box;
 }
-
 .header {
     .whatsapp {
         width: 50px;
@@ -71,4 +70,6 @@ body {
 }
 @import "_iphone";
 @import "_macbooks";
+@import "_carrito";
+@import "_comparar";
 @import "_footer";

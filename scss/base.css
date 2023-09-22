@@ -313,4 +313,157 @@ body .textoDeCatalogo {
 }
 .container .row .card .card-body p {
   color: white;
+}
+
+.neon-text {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #00ccff, 0 0 150px #00ccff;
+  color: white;
+}
+
+.menu {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+.menu .pages {
+  color: aquamarine;
+  text-align: center;
+}
+.menu .pages .menuu {
+  background-color: aqua;
+  border-radius: 50%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.menu .pages .menuu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu .pages .menuu li a {
+  padding: 20px;
+  color: #1400c5;
+  text-decoration: none;
+  display: inline-block;
+}
+.menu .pages .menuu li :hover {
+  padding: 1%;
+  color: #fff;
+  width: 180%;
+  height: 2rem;
+  background-color: #1400c5;
+  border-radius: 100%;
+  justify-content: space-evenly;
+}
+
+.whatsapp {
+  width: 50px;
+  height: 50px;
+  margin: 5%;
+  position: fixed;
+}
+
+body .finalTitle {
+  padding: 4%;
+  color: white;
+  text-align: center;
+}
+body .formularioNormal {
+  color: white;
+  text-align: center;
+}
+
+.container .row .card {
+  background-image: url("../fotos/background.png");
+}
+.container .row .card .card-header {
+  color: white;
+}
+.container .row .card .card-body p {
+  color: white;
+}
+
+.neon-text {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #00ccff, 0 0 150px #00ccff;
+  color: white;
+}
+
+.menu {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+.menu .pages {
+  color: aquamarine;
+  text-align: center;
+}
+.menu .pages .menuu {
+  background-color: aqua;
+  border-radius: 50%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.menu .pages .menuu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu .pages .menuu li a {
+  padding: 20px;
+  color: #1400c5;
+  text-decoration: none;
+  display: inline-block;
+}
+.menu .pages .menuu li :hover {
+  padding: 1%;
+  color: #fff;
+  width: 180%;
+  height: 2rem;
+  background-color: #1400c5;
+  border-radius: 100%;
+  justify-content: space-evenly;
+}
+
+body .finalTitle {
+  padding: 4%;
+  color: white;
+  text-align: center;
+}
+body .comparaiphone {
+  display: flex;
+  padding: 5%;
+}
+body .formularioNormal {
+  color: white;
+  text-align: center;
+}
+
+.container .row .card {
+  background-image: url("../fotos/background.png");
+}
+.container .row .card .card-header {
+  color: white;
+}
+.container .row .card .card-body p {
+  color: white;
+}
+
+.container .row .card {
+  background-image: url("../fotos/background.png");
+}
+.container .row .card .card-header {
+  color: white;
+}
+.container .row .card .card-body p {
+  color: white;
 }/*# sourceMappingURL=base.css.map */

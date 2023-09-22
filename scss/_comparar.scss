@@ -1,0 +1,18 @@
+@import "_neontitle";
+@import "_menu";
+body {
+    .finalTitle {
+        padding: 4%;
+        color: white;
+        text-align: center;
+    }
+    .comparaiphone {
+        display: flex;
+    padding: 5%;
+    }
+    .formularioNormal {
+        color: white;
+                text-align: center;
+    }
+}
+@import "_footer";
