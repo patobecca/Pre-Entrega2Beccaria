@@ -75,6 +75,7 @@ body .inscripto .inscripcion {
 body .inscripto .formularioNormal {
   color: white;
   text-align: center;
+  padding: 10%;
 }
 
 .neon-text {
@@ -85,42 +86,12 @@ body .inscripto .formularioNormal {
   color: white;
 }
 
-.menu {
-  width: 50%;
-  margin: 0 auto;
-  border-radius: 20%;
+.navbar {
+  background-color: rgb(95, 210, 255);
 }
-.menu .pages {
-  color: aquamarine;
-  text-align: center;
-}
-.menu .pages .menuu {
-  background-color: aqua;
-  border-radius: 50%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 5px;
-  list-style: none;
-  margin: 0 auto;
-  text-align: center;
-}
-.menu .pages .menuu li {
-  display: inline-block;
-  text-align: center;
-}
-.menu .pages .menuu li a {
-  padding: 20px;
-  color: #1400c5;
-  text-decoration: none;
-  display: inline-block;
-}
-.menu .pages .menuu li :hover {
-  padding: 1%;
-  color: #fff;
-  width: 180%;
-  height: 2rem;
-  background-color: #1400c5;
-  border-radius: 100%;
-  justify-content: space-evenly;
+
+.navbar a {
+  color: rgb(0, 44, 189);
 }
 
 body {
