@@ -14,5 +14,13 @@ body {
         color: white;
                 text-align: center;
     }
+    .comparativas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 1rem;
+        padding: 1rem;
+    }
 }
+
 @import "_footer";

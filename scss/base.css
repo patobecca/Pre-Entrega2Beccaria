@@ -387,6 +387,11 @@ body .formularioNormal {
   color: white;
   text-align: center;
 }
+body .comparativas {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+}
 
 .container .row .card {
   background-image: url("../fotos/background.png");
