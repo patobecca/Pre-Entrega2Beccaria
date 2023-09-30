@@ -11,7 +11,7 @@ body {
     padding: 5%;
     }
     .formularioNormal {
-        color: white;
+        color: rgba(255, 255, 255, 0.623);
                 text-align: center;
     }
     .comparativas {
@@ -23,7 +23,7 @@ body {
     .card {
         flex-grow: 1;
     }
-    @import "_loginn";
+    @import "_login";
 }
 
 @import "_footer";

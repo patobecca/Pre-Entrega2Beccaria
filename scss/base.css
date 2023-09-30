@@ -35,7 +35,7 @@
   font-size: 60px;
   text-align: center;
   margin-top: 100px;
-  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #00ccff, 0 0 150px #00ccff;
+  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #f7f200, 0 0 150px #00ccff;
   color: rgb(65, 217, 255);
 }
 
@@ -72,18 +72,19 @@ body .tablitaVende .masvendidos table {
 body .inscripto .inscripcion {
   color: white;
   text-align: center;
+  padding: 10px;
 }
 body .inscripto .formularioNormal {
   color: white;
   text-align: center;
-  padding: 10%;
+  padding: 10px;
 }
 
 .neon-text {
   font-size: 60px;
   text-align: center;
   margin-top: 100px;
-  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #00ccff, 0 0 150px #00ccff;
+  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #f7f200, 0 0 150px #00ccff;
   color: rgb(65, 217, 255);
 }
 
@@ -113,6 +114,33 @@ body main .finalTitle {
   padding: 4%;
   color: white;
   text-align: center;
+}
+body main .productNuevo {
+  text-align: center;
+  margin: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  border: 10px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px white;
+  animation: pulse 1s infinite alternate;
+}
+body main img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
 body main .product {
   display: inline-block;
@@ -147,6 +175,242 @@ body main .inscripcion {
 body main .formularioNormal {
   color: white;
   text-align: center;
+}
+
+.container .row .card {
+  background-image: url("../fotos/footerback.jpeg");
+  background-size: cover;
+}
+.container .row .card .card-header {
+  color: white;
+}
+.container .row .card .card-body p {
+  color: white;
+}
+
+.neon-text {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #f7f200, 0 0 150px #00ccff;
+  color: rgb(65, 217, 255);
+}
+
+.navbar {
+  background-color: rgb(95, 210, 255);
+}
+
+.navbar a {
+  color: rgb(0, 44, 189);
+}
+
+body {
+  background-image: url("../fotos/background.png");
+}
+body .whatsapp {
+  width: 50px;
+  height: 50px;
+  margin: 5%;
+  position: fixed;
+}
+body .product {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+}
+body .product .product img {
+  width: 100%;
+  border-radius: 8px;
+}
+body .product img {
+  width: 100%;
+  border-radius: 8px;
+}
+body .product h2 {
+  margin-top: 10px;
+}
+body .product p {
+  font-weight: bold;
+  margin: 5px 0;
+}
+body .finalTitle {
+  padding: 4%;
+  color: white;
+  text-align: center;
+}
+body .textoDeCatalogo {
+  color: white;
+}
+
+.container .row .card {
+  background-image: url("../fotos/footerback.jpeg");
+  background-size: cover;
+}
+.container .row .card .card-header {
+  color: white;
+}
+.container .row .card .card-body p {
+  color: white;
+}
+
+.neon-text {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #f7f200, 0 0 150px #00ccff;
+  color: rgb(65, 217, 255);
+}
+
+body .finalTitle {
+  padding: 4%;
+  color: white;
+  text-align: center;
+}
+body .formularioNormal {
+  color: white;
+  text-align: center;
+  margin: 10px auto;
+  padding: 12px 4px;
+}
+body .loginn {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .login-box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+body .login-box h2 {
+  margin-bottom: 20px;
+}
+body .login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+body .login-box button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+body .login-box button:hover {
+  background-color: #ffffff;
+}
+
+.container .row .card {
+  background-image: url("../fotos/footerback.jpeg");
+  background-size: cover;
+}
+.container .row .card .card-header {
+  color: white;
+}
+.container .row .card .card-body p {
+  color: white;
+}
+
+.neon-text {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #f7f200, 0 0 150px #00ccff;
+  color: rgb(65, 217, 255);
+}
+
+.navbar {
+  background-color: rgb(95, 210, 255);
+}
+
+.navbar a {
+  color: rgb(0, 44, 189);
+}
+
+body .finalTitle {
+  padding: 4%;
+  color: white;
+  text-align: center;
+}
+body .comparaiphone {
+  display: flex;
+  padding: 5%;
+}
+body .formularioNormal {
+  color: rgba(255, 255, 255, 0.623);
+  text-align: center;
+}
+body .comparativas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 1rem;
+}
+body .card {
+  flex-grow: 1;
+}
+body .loginn {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .login-box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+body .login-box h2 {
+  margin-bottom: 20px;
+}
+body .login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+body .login-box button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+body .login-box button:hover {
+  background-color: #ffffff;
+}
+
+.container .row .card {
+  background-image: url("../fotos/footerback.jpeg");
+  background-size: cover;
+}
+.container .row .card .card-header {
+  color: white;
+}
+.container .row .card .card-body p {
+  color: white;
 }
 
 .container .row .card {

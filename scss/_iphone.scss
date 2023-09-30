@@ -18,6 +18,33 @@ body {
         color: white;
         text-align: center;
             }
+            .productNuevo {
+                text-align: center;
+                margin: 20px;
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+                color: white;
+                border: 10px solid #ffffff;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba($color: #ffffff, $alpha: 1.0);
+                animation: pulse 1s infinite alternate;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                max-height: 100px;
+            }
+            @keyframes pulse {
+                from {
+                    transform: scale(1);
+                }
+                to {
+                    transform: scale(1.1);
+                }
+            }
             .product {
                 display: inline-block;
                 margin: 20px;
