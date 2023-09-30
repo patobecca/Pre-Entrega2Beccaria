@@ -12,10 +12,6 @@
 <h1 class="neon-text">
     TecnoShop WE📲🖥
 </h1>
-<br>
-    <div class="whatsapp">
-        <img src="../fotos/whatsapp.png" alt="logoWpp">
-    </div>
     <!--todos los HTMLS comienzan con un header-->
     <header>
         <div class="finalTitle">
@@ -55,7 +51,7 @@
     </header>
     <body>
     <main>
-        <br>
+
         <section>
             <h2 class="finalTitle">Completa tus datos para finalizar tu compra!</h2>
             <br>
@@ -64,27 +60,26 @@
                     <label form="name"> Nombre</label>
                     <input type="text" name="name" placeholder="Sofía">
                 </div>
-                <br>
                 <div>
                     <label form="email"> Dirección de email</label>
                     <input type="email" name="email" required>
                 </div>
-                <br>
+
                 <div>
                     <label for="titular"> Nombre del titular de la tarjeta</label>
                     <input type="titular" name="titular" required>
                 </div>
-                <br>
+
                 <div>
                     <label for="creditcard"> Tarjeta de Crédito</label>
                     <input type="creditcard" name="creditcard" required>
                 </div>
-                <br>
+
                 <div class="cvv">
                     <label for="cvv">CVV</label>
                     <input type="cvv" name="cvv" required>
                 </div>
-                <br>
+
                 <div>
                     <label for="date">Año de Vencimiento</label>
                     <select name="date" id="">
@@ -98,14 +93,12 @@
                         <option value="2030">2030</option>
                         <option value="2031">2031</option>
                     </select>
-                    <br>
-                    <br>
+
                     <input type="radio" name="datos" value="ok"> Mis datos son correctos
                 </div>
             </div>
         </section>
-        <br>
-        <br>
+
 
         <section>
             <div class="formularioNormal">
@@ -117,10 +110,16 @@
             </div>
             </div>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
+        <div class="loginn">
+            <div class="login-box">
+                <h2>Iniciar Sesión</h2>
+                <form action="#">
+                    <input type="text" placeholder="Usuario" id="usuario" name="usuario" required>
+                    <input type="password" placeholder="Contraseña" id="contrasena" name="contrasena" required>
+                    <a href="#" class="btn btn-primary">Iniciar Sesion</a>
+                </form>
+            </div>
+        </div>
         <footer>
             <h4 class="finalTitle">
                 TecnoShop WE, un año de experiencia y alegrías con nuestros clientes! Confía en nosotros.
@@ -177,9 +176,6 @@
                 </div>
 
         </footer>
-        <div class="arriba">
-            <a href="#arriba"> Subir</a>
-        </div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
