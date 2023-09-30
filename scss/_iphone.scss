@@ -21,18 +21,20 @@ body {
             .productNuevo {
                 text-align: center;
                 margin: 20px;
-                width: 30%;
+                width: 100%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 padding: 10px;
                 color: white;
+            }
+            .imgAnimada {
                 border: 10px solid #ffffff;
                 border-radius: 5px;
                 box-shadow: 0 0 10px rgba($color: #ffffff, $alpha: 1.0);
                 animation: pulse 1s infinite alternate;
             }
-            img {
+            .animadita {
                 max-width: 100%;
                 height: auto;
                 max-height: 100px;

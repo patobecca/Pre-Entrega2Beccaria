@@ -118,18 +118,20 @@ body main .finalTitle {
 body main .productNuevo {
   text-align: center;
   margin: 20px;
-  width: 30%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
   color: white;
+}
+body main .imgAnimada {
   border: 10px solid #ffffff;
   border-radius: 5px;
   box-shadow: 0 0 10px white;
   animation: pulse 1s infinite alternate;
 }
-body main img {
+body main .animadita {
   max-width: 100%;
   height: auto;
   max-height: 100px;
