@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing:border-box;
 }
+@import "_neontitle"; 
 .header {
     .whatsapp {
         width: 50px;
@@ -28,7 +29,7 @@
     .subtitulo {
         text-align: center;
         color: white;}
-@import "_neontitle"; 
+
 body {
     background-image: url("../fotos/background.png");
     background-size: cover;

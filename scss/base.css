@@ -1,9 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .neon-text {
   font-size: 60px;
   text-align: center;
   margin-top: 100px;
-  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #f7f200, 0 0 150px #00ccff;
+  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #ffffff, 0 0 150px #00ccff;
   color: rgb(65, 217, 255);
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.header .whatsapp {
+  width: 50px;
+  height: 50px;
+  margin: 5%;
+  position: fixed;
+}
+.header .logoCentro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header .logoCentro .logo {
+  width: 80px;
+  border-radius: 50%;
+  text-align: center;
+}
+.header .inscripcion {
+  width: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.subtitulo {
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-image: url("../fotos/background.png");
+  background-size: cover;
+}
+body .introB .intro p {
+  color: white;
+  text-align: center;
+}
+body .navbar {
+  background-color: rgb(95, 210, 255);
+}
+body .navbar a {
+  color: rgb(0, 44, 189);
+}
+body .finalTitle {
+  padding: 4%;
+  color: white;
+  text-align: center;
+}
+body .tablitaVende {
+  padding: 5%;
+}
+body .tablitaVende .masvendidos {
+  width: 100%;
+}
+body .tablitaVende .masvendidos table {
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+body .inscripto .inscripcion {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+body .inscripto .formularioNormal {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.neon-text {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #ffffff, 0 0 150px #00ccff;
+  color: rgb(65, 217, 255);
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .navbar {
@@ -112,8 +196,9 @@ body main .formularioNormal {
   font-size: 60px;
   text-align: center;
   margin-top: 100px;
-  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #f7f200, 0 0 150px #00ccff;
+  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #ffffff, 0 0 150px #00ccff;
   color: rgb(65, 217, 255);
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .navbar {
@@ -180,8 +265,9 @@ body .textoDeCatalogo {
   font-size: 60px;
   text-align: center;
   margin-top: 100px;
-  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #f7f200, 0 0 150px #00ccff;
+  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #ffffff, 0 0 150px #00ccff;
   color: rgb(65, 217, 255);
+  font-family: "Bebas Neue", sans-serif;
 }
 
 body .finalTitle {
@@ -249,8 +335,9 @@ body .login-box button:hover {
   font-size: 60px;
   text-align: center;
   margin-top: 100px;
-  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #f7f200, 0 0 150px #00ccff;
+  text-shadow: 0 0 10px #75eaff, 0 0 20px #0daeb9, 0 0 30px #0daeb9, 0 0 40px #00ccff, 0 0 70px #00ccff, 0 0 80px #00ccff, 0 0 100px #ffffff, 0 0 150px #00ccff;
   color: rgb(65, 217, 255);
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .navbar {
